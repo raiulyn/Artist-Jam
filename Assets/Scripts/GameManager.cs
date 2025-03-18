@@ -1,4 +1,6 @@
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -44,5 +46,11 @@ public class GameManager : MonoBehaviour
         isGamePaused = !isGamePaused;
         Time.timeScale = isGamePaused ? 0 : 1;
         Debug.Log("Game " + (isGamePaused ? "Paused" : "Resumed"));
+
+        GameObject pauseMenu = GameObject.Find("PauseMenu");
+        if (pauseMenu != null)
+        {
+            pauseMenu.SetActive(isGamePaused);
+        }
     }
 }
