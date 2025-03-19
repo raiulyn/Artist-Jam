@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     private bool isGamePaused;
+    private bool isInGame;
 
     void Start()
     {
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
         // Example of handling pause functionality
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            if (!isInGame) { return; } //Ensure the game is running before allowing pause
             TogglePauseGame();
         }
     }
@@ -33,6 +35,8 @@ public class GameManager : MonoBehaviour
     {
         // Load the main game scene
         //SceneManager.LoadScene("MainGameScene");
+        isInGame = true;
+        SceneManagerr.Instance?.LoadScene("SampleScene");
     }
 
     public void EndGame()
@@ -47,10 +51,15 @@ public class GameManager : MonoBehaviour
         Time.timeScale = isGamePaused ? 0 : 1;
         Debug.Log("Game " + (isGamePaused ? "Paused" : "Resumed"));
 
-        GameObject pauseMenu = GameObject.Find("PauseMenu");
+        GameObject pauseMenu = GameObject.Find("PauseMenu"); // RL: Consider caching this reference
         if (pauseMenu != null)
         {
             pauseMenu.SetActive(isGamePaused);
         }
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
