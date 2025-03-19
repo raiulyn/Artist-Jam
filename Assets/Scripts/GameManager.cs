@@ -58,19 +58,25 @@ public class GameManager : MonoBehaviour
     public void TogglePauseGame()
     {
         isGamePaused = !isGamePaused;
-        Time.timeScale = isGamePaused ? 0 : 1;
-        Debug.Log("Game " + (isGamePaused ? "Paused" : "Resumed"));
 
         GameObject pauseMenu = GameObject.Find("PauseMenu"); // RL: Consider caching this reference
         if (pauseMenu != null)
         {
             pauseMenu.SetActive(isGamePaused);
         }
+
+        Time.timeScale = isGamePaused ? 0 : 1;
+        Debug.Log("Game " + (isGamePaused ? "Paused" : "Resumed"));
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void ResetPlayer(GameoObject player)
+    {
+        player.transform.position = currentCheckpoint.transform.position + new Vector2(0, 2);
     }
 
     public void NewCheckpoint(GameObject checkpoint)
