@@ -7,6 +7,7 @@ public class EffectManager : MonoBehaviour
 {
     Image background;
     bool faded = true;
+    [SerializeField] float fadeDuration = .25f;
 
     public static EffectManager Instance { get; private set; }
 
@@ -32,15 +33,15 @@ public class EffectManager : MonoBehaviour
     {
         if (faded)
         {
-            background.DOFade(1, .25f).Play();
+            background.DOFade(1, fadeDuration).Play();
             faded = false;
         }
         else
         {
-            background.DOFade(0, .25f).Play();
+            background.DOFade(0, fadeDuration).Play();
             faded = true;
         }
 
-        yield return new WaitForSeconds(.25f);
+        yield return new WaitForSeconds(fadeDuration);
     }
 }
