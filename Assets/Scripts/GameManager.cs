@@ -1,6 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -75,7 +76,18 @@ public class GameManager : MonoBehaviour
 
     public void ResetPlayer(GameObject player)
     {
+        StartCoroutine(ResetPlayerCoroutine(player));
+    }
+
+    private IEnumerator ResetPlayerCoroutine(GameObject player)
+    {
+        player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+
+        yield return StartCoroutine(EffectManager.Instance.Fade());
         player.transform.position = (Vector2)currentCheckpoint.transform.position + new Vector2(0, 2);
+        StartCoroutine(EffectManager.Instance.Fade());
+
+        player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
     }
 
     public void NewCheckpoint(GameObject checkpoint)
