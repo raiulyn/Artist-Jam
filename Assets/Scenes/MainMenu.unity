@@ -1482,6 +1482,7 @@ MonoBehaviour:
   audioSource: {fileID: 1873421960}
   musicClips:
   - {fileID: 8300000, guid: f7c4a657a9643bd41b04c1fc12645f41, type: 3}
+  - {fileID: 8300000, guid: 8bcb94acae1b44b4ebf2e77a5823769b, type: 3}
   playOnAwake: 1
 --- !u!4 &1873421962
 Transform:

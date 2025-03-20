@@ -15,7 +15,7 @@ public class MusicManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             if(playOnAwake)
             {
-                PlayMusic();
+                PlayMusic(0);
             }
         }
         else
@@ -24,9 +24,9 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-    public void PlayMusic()
+    public void PlayMusic(int clipNumber)
     {
-        audioSource.clip = musicClips[Random.Range(0, musicClips.Length)];
+        audioSource.clip = musicClips[clipNumber];
         audioSource.Play();
     }
     public void StopMusic()
