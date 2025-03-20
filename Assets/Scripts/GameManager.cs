@@ -1,6 +1,6 @@
 using DG.Tweening;
 using UnityEngine;
-using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
         {
             checkpoints.Add(child.gameObject);
         }
-
     }
 
     void Update()
@@ -74,9 +73,9 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void ResetPlayer(GameoObject player)
+    public void ResetPlayer(GameObject player)
     {
-        player.transform.position = currentCheckpoint.transform.position + new Vector2(0, 2);
+        player.transform.position = (Vector2)currentCheckpoint.transform.position + new Vector2(0, 2);
     }
 
     public void NewCheckpoint(GameObject checkpoint)

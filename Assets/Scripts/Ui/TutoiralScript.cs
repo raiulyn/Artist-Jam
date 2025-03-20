@@ -31,7 +31,7 @@ public class TutoiralScript : MonoBehaviour
         {
             StartCoroutine(FadeIn(tutorialText[1]));
         }
-        else if (collidedCount == 4)
+        else if (collidedCount == 6)
         {
             StartCoroutine(FadeIn(tutorialText[2]));
         }
@@ -39,8 +39,8 @@ public class TutoiralScript : MonoBehaviour
 
     IEnumerator FadeIn(TextMeshProUGUI text)
     {
-        if (text == tutorialText[0]) yield return new WaitForSeconds(1.5f);
+        if (text == tutorialText[0]) yield return new WaitForSeconds(1f);
 
-        text.DOFade(1, 0.75f).Play();
+        text.DOFade(1, 1.75f).Play();
     }
 }

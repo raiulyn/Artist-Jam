@@ -4,11 +4,11 @@ using System.Collections;
 
 public class Checkpoint : MonoBehaviour
 {
-    void OnTriggerEnter2d(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            GameManager.NewCheckpoint(gameObject);
+            GameManager.Instance.NewCheckpoint(gameObject);
         }
     }
 }
