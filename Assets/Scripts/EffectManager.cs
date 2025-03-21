@@ -2,6 +2,8 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 public class EffectManager : MonoBehaviour
 {
@@ -43,5 +45,18 @@ public class EffectManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(fadeDuration);
+    }
+
+    public void ChangeVignetteColor(Color color)
+    {
+        VolumeProfile profile = GameManager.Instance.gameObject.GetComponent<Volume>().profile;
+        if (profile.TryGet(out Vignette vignette))
+        {
+            vignette.color.Override(color);
+        }
+        else
+        {
+            Debug.LogWarning("Vignette component not found in the VolumeProfile.");
+        }
     }
 }
