@@ -15,7 +15,19 @@ public class MovingPlatform : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + Vector2.right * speed * Time.fixedDeltaTime * (isMovingRight ? 1 : -1));
+
+        if (transform.childCount > 1)
+        {
+            foreach (Transform child in transform)
+            {
+                if (child.gameObject.CompareTag("Player"))
+                {
+                    child.gameObject.GetComponent<Rigidbody2D>().linearVelocity += Vector2.right * speed * Time.fixedDeltaTime * (isMovingRight ? 1 : -1);
+                }
+            }
+        }
     }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
