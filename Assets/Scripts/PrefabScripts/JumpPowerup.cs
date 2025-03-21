@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpeedPowerup : MonoBehaviour
+public class JumpPowerup : MonoBehaviour
 {
     [SerializeField] float speedBuff;
     [SerializeField] float buffDuration;
@@ -19,16 +19,16 @@ public class SpeedPowerup : MonoBehaviour
     {
         // Finds playerstats and makes holder value for regular speed
         ScriptableStats playerStats = player.GetComponent<PlayerController>()._stats;
-        float oldSpeed = _stats.MaxSpeed;
+        float oldJump = _stats.JumpPower;
 
         // Changes vignette color and buffs speed
         EffectManager.Instance.ChangeVignetteColor(buffColor);
-        playerStats.MaxSpeed = speedBuff;
+        playerStats.JumpPower = speedBuff;
 
         yield return new WaitForSeconds(buffDuration);
 
         // Sets speed and vignette color back to normal
-        playerStats.MaxSpeed = oldSpeed;
+        playerStats.JumpPower = oldJump;
         EffectManager.Instance.ChangeVignetteColor(Color.White);
 
         // Destroys powerup

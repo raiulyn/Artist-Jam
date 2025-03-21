@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class Hazard : MonoBehaviour
+public class SpeedPowerup : MonoBehaviour
 {
-    [SerializeField] float speedBuff;
+    [SerializeField] float jumpBuff;
     [SerializeField] float buffDuration;
     [SerializeField] Color buffColor;
 
@@ -23,7 +23,7 @@ public class Hazard : MonoBehaviour
 
         // Changes vignette color and buffs speed
         EffectManager.Instance.ChangeVignetteColor(buffColor);
-        playerStats.MaxSpeed = speedBuff;
+        playerStats.MaxSpeed = jumpBuff;
 
         yield return new WaitForSeconds(buffDuration);
 
