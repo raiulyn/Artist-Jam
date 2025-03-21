@@ -12,7 +12,7 @@ public class Jumppad : MonoBehaviour
         player.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, boostForce));
     }
     
-    void OnCollisionEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player") && !hit)
         {
@@ -21,7 +21,7 @@ public class Jumppad : MonoBehaviour
         }
     }
 
-    void OnColisionExit2D(Collider2D other)
+    void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {

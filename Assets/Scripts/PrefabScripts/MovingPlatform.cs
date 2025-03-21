@@ -12,6 +12,10 @@ public class MovingPlatform : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    private void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + Vector2.right * speed * Time.fixedDeltaTime * (isMovingRight ? 1 : -1));
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
