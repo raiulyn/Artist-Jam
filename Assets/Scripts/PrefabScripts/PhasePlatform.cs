@@ -11,6 +11,16 @@ public class PhasePlatform : MonoBehaviour
     {
         trigger = transform.GetChild(0).gameObject;
     }
+
+    void Update()
+    {
+        trigger.SetActive(isSolid);
+        
+        if (isSolid && Input.GetKeyDown(KeyCode.Space))
+        {
+            isSolid = false;
+        }
+    }
     
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -19,7 +29,6 @@ public class PhasePlatform : MonoBehaviour
         if (obj.CompareTag("Player") && IsFromBelow(obj))
         {
             isSolid = false;
-            trigger.SetActive(false);
         }
     }
 
@@ -30,7 +39,9 @@ public class PhasePlatform : MonoBehaviour
         if (obj.CompareTag("Player") && !IsFromBelow(obj))
         {
             isSolid = true;
-            trigger.SetActive(true);
+        } else if (obj.CompareTag("Player") && IsFromBelow(obj))
+        {
+            isSolid = true;
         }
     }
 
