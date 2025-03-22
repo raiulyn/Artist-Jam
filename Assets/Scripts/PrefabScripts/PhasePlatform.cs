@@ -9,7 +9,7 @@ public class PhasePlatform : MonoBehaviour
 
     void Start()
     {
-        tranform.GetChild(0).gameObject;
+        trigger = transform.GetChild(0).gameObject;
     }
     
     void OnTriggerEnter2D(Collider2D other)
