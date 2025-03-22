@@ -35,11 +35,7 @@ public class PhasePlatform : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
         GameObject obj = other.gameObject;
-
-        if (obj.CompareTag("Player") && !IsFromBelow(obj))
-        {
-            isSolid = true;
-        } else if (obj.CompareTag("Player") && IsFromBelow(obj))
+        if (obj.CompareTag("Player"))
         {
             isSolid = true;
         }
@@ -47,8 +43,7 @@ public class PhasePlatform : MonoBehaviour
 
     bool IsFromBelow(GameObject player)
     {
-        float direction = (player.transform.position.y - transform.position.y).normalized;
-
-        return direction > 0 ? true : false;
+        float direction = player.transform.position.y - transform.position.y;
+        return direction < 0;
     }
 }
