@@ -2,44 +2,16 @@ using System.Collections;
 using TarodevController;
 using UnityEngine;
 
-public class SpeedPowerup : MonoBehaviour
+public class SpeedPowerup : Powerup
 {
     [SerializeField] float speedBuff;
-    [SerializeField] float buffDuration;
-    [SerializeField] Color buffColor;
 
-    void OnCollisionEnter2D(Collision2D other)
+    protected override void BuffStart(GameObject player)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            StartCoroutine(Buff(other.gameObject));
-            gameObject.SetActive(false);
-        }
+        player.GetComponent<PlayerController>()._stats.MaxSpeed += speedBuff;
     }
-
-    IEnumerator Buff(GameObject player)
+    protected override void BuffEnd(GameObject player)
     {
-        Debug.Log("Buff coroutine started");
-
-        // Finds playerstats and makes holder value for regular speed
-        ScriptableStats playerStats = player.GetComponent<PlayerController>()._stats;
-        float oldSpeed = playerStats.MaxSpeed;
-
-        // Changes vignette color and buffs speed
-        EffectManager.Instance.ChangeVignetteColor(buffColor);
-        playerStats.MaxSpeed = speedBuff;
-
-        Debug.Log("Speed buff applied");
-
-        yield return new WaitForSeconds(buffDuration);
-
-        Debug.Log("Speed powerup expired");
-        // Sets speed and vignette color back to normal
-        playerStats.MaxSpeed = oldSpeed;
-        EffectManager.Instance.ChangeVignetteColor(Color.white);
-
-        // Destroys powerup
-        Destroy(gameObject);
-        Debug.Log("Buff coroutine ended");
+        player.GetComponent<PlayerController>()._stats.MaxSpeed -= speedBuff;
     }
 }
