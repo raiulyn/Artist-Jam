@@ -44,13 +44,13 @@ public class Powerup : MonoBehaviour
         pickUpCollider.enabled = false;
         audioSource.PlayOneShot(pickUpSound);
         // Changes vignette color
-        EffectManager.Instance?.ChangeVignetteColor(buffColor);
+        //EffectManager.Instance?.ChangeVignetteColor(buffColor);
         audioSource.clip = buffSound;
         audioSource.Play();
         BuffStart(player);
         yield return new WaitForSeconds(buffDuration);
         // Sets vignette color back to normal
-        EffectManager.Instance?.ChangeVignetteColor(Color.white);
+        //EffectManager.Instance?.ChangeVignetteColor(Color.white);
         BuffEnd(player);
         // Re-enable powerup pickup
         hasCollected = false;

@@ -2,6 +2,7 @@ using DG.Tweening;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -37,7 +38,9 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!isInGame) { return; } //Ensure the game is running before allowing pause
-            TogglePauseGame();
+            //TogglePauseGame();
+            SceneManager.LoadScene("MainMenu");
+            MusicManager.Instance?.PlayMusic(0);
         }
     }
 
