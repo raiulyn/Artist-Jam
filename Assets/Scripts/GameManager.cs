@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
         // Load the main game scene
         //SceneManager.LoadScene("MainGameScene");
         isInGame = true;
-        SceneManagerr.Instance?.LoadScene("SampleScene");
+        SceneManagerr.Instance?.LoadScene("Level1");
     }
 
     public void EndGame()

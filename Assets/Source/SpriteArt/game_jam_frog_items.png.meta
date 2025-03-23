@@ -1,0 +1,1045 @@
+fileFormatVersion: 2
+guid: c5cccab9bffff964c99d5c3ef2112fd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6023056547842868742
+    second: game_jam_frog_items_0
+  - first:
+      213: -1489479585812152537
+    second: game_jam_frog_items_1
+  - first:
+      213: -2885021994965700687
+    second: game_jam_frog_items_2
+  - first:
+      213: -9165368255857228919
+    second: game_jam_frog_items_3
+  - first:
+      213: 6949217789678494888
+    second: game_jam_frog_items_4
+  - first:
+      213: 5384472881405630070
+    second: game_jam_frog_items_5
+  - first:
+      213: -3621983940081452157
+    second: game_jam_frog_items_6
+  - first:
+      213: -2784252692203290185
+    second: game_jam_frog_items_7
+  - first:
+      213: -4981073353789308524
+    second: game_jam_frog_items_8
+  - first:
+      213: 4908177376253907218
+    second: game_jam_frog_items_9
+  - first:
+      213: 8741512855345394349
+    second: game_jam_frog_items_10
+  - first:
+      213: -8817088454823979097
+    second: game_jam_frog_items_11
+  - first:
+      213: -2530762771277275440
+    second: game_jam_frog_items_12
+  - first:
+      213: 6148003121746927769
+    second: game_jam_frog_items_13
+  - first:
+      213: -916346332737223047
+    second: game_jam_frog_items_14
+  - first:
+      213: 1490527702094308038
+    second: game_jam_frog_items_15
+  - first:
+      213: -6182647823755160659
+    second: game_jam_frog_items_16
+  - first:
+      213: -2352502195252104611
+    second: game_jam_frog_items_17
+  - first:
+      213: 5203180902614983843
+    second: game_jam_frog_items_18
+  - first:
+      213: 2744511669894540985
+    second: game_jam_frog_items_19
+  - first:
+      213: 2568997247804032416
+    second: game_jam_frog_items_20
+  - first:
+      213: -4835956831562288491
+    second: game_jam_frog_items_21
+  - first:
+      213: -3575491729334006086
+    second: game_jam_frog_items_22
+  - first:
+      213: 4279669843627681543
+    second: game_jam_frog_items_23
+  - first:
+      213: -7924186906573365551
+    second: game_jam_frog_items_24
+  - first:
+      213: 7249398901176849740
+    second: game_jam_frog_items_25
+  - first:
+      213: -2253499367985172384
+    second: game_jam_frog_items_26
+  - first:
+      213: 7811552159033418709
+    second: game_jam_frog_items_27
+  - first:
+      213: -6118793005777939320
+    second: game_jam_frog_items_28
+  - first:
+      213: 7091830353633864143
+    second: game_jam_frog_items_29
+  - first:
+      213: 4996945381873442088
+    second: game_jam_frog_items_30
+  - first:
+      213: 2985664461840821640
+    second: game_jam_frog_items_31
+  - first:
+      213: 6981153521168384567
+    second: game_jam_frog_items_32
+  - first:
+      213: 7078098444576997422
+    second: game_jam_frog_items_33
+  - first:
+      213: -5103590298575973480
+    second: game_jam_frog_items_34
+  - first:
+      213: -1365848376005485137
+    second: game_jam_frog_items_35
+  - first:
+      213: 1052745407231265054
+    second: game_jam_frog_items_36
+  - first:
+      213: 8070828880384156790
+    second: game_jam_frog_items_37
+  - first:
+      213: -8612704935761555559
+    second: game_jam_frog_items_38
+  - first:
+      213: 7728933005731068714
+    second: game_jam_frog_items_39
+  - first:
+      213: -3034196568243290637
+    second: game_jam_frog_items_40
+  - first:
+      213: -4202351446900921455
+    second: game_jam_frog_items_41
+  - first:
+      213: 5577704208412548287
+    second: game_jam_frog_items_42
+  - first:
+      213: 5079152609275858089
+    second: game_jam_frog_items_43
+  - first:
+      213: -5371064311260277874
+    second: game_jam_frog_items_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: game_jam_frog_items_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 228
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f7873553e445be0800000000000000
+      internalID: -1489479585812152537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 224
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf61e4f7c756f7d0800000000000000
+      internalID: -2885021994965700687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 191
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b764debc02cbdc0800000000000000
+      internalID: -3621983940081452157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 191
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b14c449de85c59d0800000000000000
+      internalID: -2784252692203290185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 191
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4918933fc2cafdab0800000000000000
+      internalID: -4981073353789308524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 191
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211193ea1595d1440800000000000000
+      internalID: 4908177376253907218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 191
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da27f5e90a7105970800000000000000
+      internalID: 8741512855345394349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 207
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7d409e3c863a580800000000000000
+      internalID: -8817088454823979097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 207
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de1c370bace0ecd0800000000000000
+      internalID: -2530762771277275440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 207
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990e7b50448125550800000000000000
+      internalID: 6148003121746927769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 207
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97647f98ddb7843f0800000000000000
+      internalID: -916346332737223047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 191
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2e5334c0b6fa410800000000000000
+      internalID: 1490527702094308038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 191
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da35bb5bf82d23aa0800000000000000
+      internalID: -6182647823755160659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 191
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52fbaea7bb3a5fd0800000000000000
+      internalID: -2352502195252104611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 191
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4667a9679653840800000000000000
+      internalID: 5203180902614983843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 191
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be6afd92d6761620800000000000000
+      internalID: 2744511669894540985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 191
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5c050c269e6a320800000000000000
+      internalID: 2568997247804032416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 191
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5923b9932ea33ecb0800000000000000
+      internalID: -4835956831562288491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70721615c01746b30800000000000000
+      internalID: 4279669843627681543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 159
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de94eb1ef1a70290800000000000000
+      internalID: -7924186906573365551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45d0c344e90b9460800000000000000
+      internalID: 7249398901176849740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 159
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0603dada346f9b0e0800000000000000
+      internalID: -2253499367985172384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 159
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d36f9f1d45386c60800000000000000
+      internalID: 7811552159033418709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88416741e2ea51ba0800000000000000
+      internalID: -6118793005777939320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 159
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9edabe12e3b6260800000000000000
+      internalID: 7091830353633864143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_30
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 159
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d58909957b85540800000000000000
+      internalID: 4996945381873442088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_31
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 159
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88da78262063f6920800000000000000
+      internalID: 2985664461840821640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_32
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 159
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73285b7c32a02e060800000000000000
+      internalID: 6981153521168384567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_34
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 143
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893df36d9a76c29b0800000000000000
+      internalID: -5103590298575973480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 143
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad162b73288b0de0800000000000000
+      internalID: -1365848376005485137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674e24a0b18510070800000000000000
+      internalID: 8070828880384156790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 127
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fcda43e76897880800000000000000
+      internalID: -8612704935761555559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 127
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b746b7e9fa24b60800000000000000
+      internalID: 7728933005731068714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_jam_frog_items_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 127
+        width: 64
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd362b0c4e54e5d0800000000000000
+      internalID: -3034196568243290637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4c22b957a9e20db409f35aedbb971434
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      game_jam_frog_items_0: 6023056547842868742
+      game_jam_frog_items_1: -1489479585812152537
+      game_jam_frog_items_10: 8741512855345394349
+      game_jam_frog_items_11: -8817088454823979097
+      game_jam_frog_items_12: -2530762771277275440
+      game_jam_frog_items_13: 6148003121746927769
+      game_jam_frog_items_14: -916346332737223047
+      game_jam_frog_items_15: 1490527702094308038
+      game_jam_frog_items_16: -6182647823755160659
+      game_jam_frog_items_17: -2352502195252104611
+      game_jam_frog_items_18: 5203180902614983843
+      game_jam_frog_items_19: 2744511669894540985
+      game_jam_frog_items_2: -2885021994965700687
+      game_jam_frog_items_20: 2568997247804032416
+      game_jam_frog_items_21: -4835956831562288491
+      game_jam_frog_items_22: -3575491729334006086
+      game_jam_frog_items_23: 4279669843627681543
+      game_jam_frog_items_24: -7924186906573365551
+      game_jam_frog_items_25: 7249398901176849740
+      game_jam_frog_items_26: -2253499367985172384
+      game_jam_frog_items_27: 7811552159033418709
+      game_jam_frog_items_28: -6118793005777939320
+      game_jam_frog_items_29: 7091830353633864143
+      game_jam_frog_items_3: -9165368255857228919
+      game_jam_frog_items_30: 4996945381873442088
+      game_jam_frog_items_31: 2985664461840821640
+      game_jam_frog_items_32: 6981153521168384567
+      game_jam_frog_items_33: 7078098444576997422
+      game_jam_frog_items_34: -5103590298575973480
+      game_jam_frog_items_35: -1365848376005485137
+      game_jam_frog_items_36: 1052745407231265054
+      game_jam_frog_items_37: 8070828880384156790
+      game_jam_frog_items_38: -8612704935761555559
+      game_jam_frog_items_39: 7728933005731068714
+      game_jam_frog_items_4: 6949217789678494888
+      game_jam_frog_items_40: -3034196568243290637
+      game_jam_frog_items_41: -4202351446900921455
+      game_jam_frog_items_42: 5577704208412548287
+      game_jam_frog_items_43: 5079152609275858089
+      game_jam_frog_items_44: -5371064311260277874
+      game_jam_frog_items_5: 5384472881405630070
+      game_jam_frog_items_6: -3621983940081452157
+      game_jam_frog_items_7: -2784252692203290185
+      game_jam_frog_items_8: -4981073353789308524
+      game_jam_frog_items_9: 4908177376253907218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
