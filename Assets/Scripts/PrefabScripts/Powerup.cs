@@ -7,6 +7,10 @@ public class Powerup : MonoBehaviour
     [SerializeField] Color buffColor;
     [SerializeField] GameObject[] visualGameobjects;
 
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip pickUpSound;
+    [SerializeField] AudioClip buffSound;
+
     private Collider2D pickUpCollider;
     private bool hasCollected;
     private Coroutine powerUpCoroutine;
@@ -38,8 +42,11 @@ public class Powerup : MonoBehaviour
         hasCollected = true;
         EnableVisuals(false);
         pickUpCollider.enabled = false;
+        audioSource.PlayOneShot(pickUpSound);
         // Changes vignette color
         EffectManager.Instance.ChangeVignetteColor(buffColor);
+        audioSource.clip = buffSound;
+        audioSource.Play();
         BuffStart(player);
         yield return new WaitForSeconds(buffDuration);
         // Sets vignette color back to normal
@@ -49,6 +56,7 @@ public class Powerup : MonoBehaviour
         hasCollected = false;
         EnableVisuals(true);
         pickUpCollider.enabled = true;
+        audioSource.clip = null;
 
         yield break;
     }

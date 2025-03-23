@@ -13594,7 +13594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2de66253eb73bc7409fb81dbf0ab4758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipNumber: 1
+  clipNumber: 2
   playOnAwake: 1
 --- !u!4 &1282885984
 Transform:
